@@ -1,0 +1,17 @@
+{
+  "name": "orot-hr",
+  "private": true,
+  "version": "1.0.0",
+  "description": "OROT HR personal HR implementation workspace",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "test:static": "node scripts/test-static.mjs",
+    "android:add": "npx cap add android",
+    "android:sync": "npm run build && npx cap sync android",
+    "android:icons": "node scripts/apply-android-icons.mjs"
+  },
+  "dependencies": {"@capacitor/core": "7.6.9", "@capacitor/android": "7.6.9"},
+  "devDependencies": {"@capacitor/cli": "7.6.9"}
+}

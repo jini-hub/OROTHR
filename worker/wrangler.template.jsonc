@@ -1,0 +1,8 @@
+{
+  "name": "orot-hr-sync",
+  "main": "index.js",
+  "compatibility_date": "2026-09-01",
+  "d1_databases": [
+    { "binding": "DB", "database_name": "orot-hr-db", "database_id": "PASTE_YOUR_D1_DATABASE_ID" }
+  ]
+}

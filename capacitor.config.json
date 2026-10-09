@@ -1,0 +1,7 @@
+{
+ "appId":"com.orot.hr",
+ "appName":"OROT HR",
+ "webDir":"www",
+ "server":{"androidScheme":"https"},
+ "android":{"allowMixedContent":false}
+}
